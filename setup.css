@@ -1,0 +1,55 @@
+:root{
+
+/* ***GENERALS SETTINGS*** */
+
+    --container: calc(100% - 300px);
+    --container-responsive: calc(100% - 150px);
+    --container-padding-side: calc(50% - var(--container) / 2);
+    --container-padding-side-responsive: calc(50% - var(--container-responsive) / 2);
+    --container-margin-header: 30px;
+    --container-padding-tb: 80px;
+
+    --content-padding-between: 40px;
+
+    --color-white: #f4f4f4;
+    --color-white-secondary: #E8E8E8;
+    --color-black: #181818;
+    --color-accent: #700990;
+    --color-gradient: linear-gradient(45deg, #F39659 0%, #9300FF 100%);
+
+    --transition: 0.4s ease-in-out;
+
+/* ***TEXTE SETTINGS*** */
+
+    --text-family: "Montserrat", sans-serif;
+
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-30: 30px;
+    --font-size-40: 40px;
+
+    --text-weight-400: 400;
+    --text-weight-500: 500;
+    --text-weight-600: 600;
+    --text-weight-800: 800;
+
+    --line-height-24: 24px;
+    --line-height-36: 36px;
+    --line-height-65: 65px;
+    --line-height-150: 150px;
+
+    --text-color-primary: #181818 ;
+    --text-color-primary-invert: #f4f4f4;
+    --text-color-secondary: #700990 ;
+    --text-color-gradient: linear-gradient(45deg, #F39659 0%, #9300FF 100%);
+
+/* ***BUTTON SETTINGS*** */
+
+    --btn-color-bg-gradient:linear-gradient(45deg, #F39659 0%, #9300FF 100%);
+    --btn-color-bg-primary: #f4f4f4;
+    --btn-padding: 0.8rem 1.2rem;
+    --btn-padding-secondary: 0.8rem 1.8rem;
+    
+}
